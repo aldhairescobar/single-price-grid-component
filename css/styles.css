@@ -41,6 +41,12 @@ h2 {
     margin-bottom: 1.125rem;
 }
 
+h3 {
+    margin-top: 0;
+    font-weight: 700;
+    font-size: 1.125rem;
+}
+
 .text-accent {
     font-size: .93rem;
     color: var(--bright-yellow);
@@ -79,6 +85,9 @@ h2 {
     line-height: 1.625rem;
 }
 
+.attribution { font-size: 11px; text-align: center; color: rgba(0, 0, 0, .8);}
+.attribution a { color: inherit; }
+
 /* === Buttons === */
 
 .btn {
@@ -92,9 +101,19 @@ h2 {
     font-weight: 700;
     border-radius: 5px;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011);
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 250ms, transform 250ms;
+}
+
+.btn:hover, .btn:focus {
+    opacity: .9;
+    transform: scale(1.03);
 }
 
 /* === Layout === */
+
+
 .card {
     width: 85%;
     margin: 0 auto;
@@ -117,6 +136,24 @@ h2 {
     padding: 1.56rem 1.5rem 1.5rem;
 }
 
+.col-why-us {
+    background-color: var(--cyan);
+    opacity: 0.85;
+    padding: 1.5rem 1.5rem;
+}
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+ul > li {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    opacity: 0.75;
+}
+
+footer {
+    margin-top: 40px;
+}
