@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [My Solution Here](https://www.frontendmentor.io/solutions/singlepricecomponentmobile-firsthtml-and-css-T9tMW6fMF)
+- Live Site URL: [Site Here](https://aldhairescobar.github.io/single-price-grid-component/)
 
 ## My process
 
